@@ -1,0 +1,106 @@
+body{
+	background-image: url("fondo.jpg");
+	background-image:none repeat;
+}
+h1 {
+	border: 2px solid white;
+	margin-top: 10%;
+	margin-left: 55%;
+	position: relative;
+}
+
+.video {
+	border: 2px solid white;
+	margin-left: 55%;
+	position: relative;
+}
+h3 {
+	border: 2px solid white;
+	padding: 1em;
+	margin-left: 0,5%;
+	margin-top: 7%;
+	margin-right: 70%;
+	position: absolute;
+}
+
+.tituloprincipal {
+	color: red;
+}
+
+.titulo {
+	color: red;
+	margin-left: 45%; 
+}
+
+.titulo2 {
+	color: red;
+	margin-left: 37%; 
+}
+
+.titulo3 {
+	color: red;
+	margin-left: 30%; 
+}
+
+.p {
+	margin-left: 40%; 
+}
+
+.cuerpo {
+	padding-top: 40px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	text-align: justify;
+}
+.inicio {
+	font-size: 30px;
+	text-align: center;
+	font-style: bold;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom-color: white;
+}
+
+.intro {
+	font-size: 30px;
+	text-align: center;
+	font-family: Fuente;
+	font-style: bold;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+fieldset {
+	text-align: center;
+	color: white;
+	font-family: Fuente;
+	margin-top: 0,5%;
+	margin-left: 0,5%;
+	margin-right: 0,5%;
+	margin-bottom: 0,5%; 
+	position: absolute;
+}
+.enlace {
+	color: yellow;
+	text-decoration: none;
+	margin: 100px;
+	font-size: 20px;
+}
+.enlace1 {
+	color: yellow;
+	text-decoration: none;
+
+	font-size: 20px;
+}
+.texto {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin-left: 100px;
+	width: 80%;
+	font-size: 18px;
+	color: white;
+	text-align: justify;
+}

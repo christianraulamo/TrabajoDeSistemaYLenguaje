@@ -23,23 +23,16 @@ h3 {
 	position: absolute;
 }
 
+.titulo {
+	text-align: center;
+	color: red;
+	font-size: 2em;
+}
+
+
 .tituloprincipal {
 	color: red;
-}
-
-.titulo {
-	color: red;
-	margin-left: 45%; 
-}
-
-.titulo2 {
-	color: red;
-	margin-left: 37%; 
-}
-
-.titulo3 {
-	color: red;
-	margin-left: 30%; 
+	font-size: 2em;
 }
 
 .p {
@@ -83,6 +76,11 @@ fieldset {
 	margin-bottom: 0,5%; 
 	position: absolute;
 }
+
+.enlaceweb {
+	color: gray;
+}
+
 .enlace {
 	color: yellow;
 	text-decoration: none;

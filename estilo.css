@@ -2,6 +2,12 @@ body{
 	background-image: url("fondo.jpg");
 	background-image:none repeat;
 }
+
+@font-face {
+	font-family: Fuente;
+	src: url(Fuente.ttf);
+}
+
 h1 {
 	border: 2px solid white;
 	margin-top: 10%;
@@ -79,6 +85,15 @@ fieldset {
 
 .enlaceweb {
 	color: gray;
+}
+
+a:hover {
+		text-decoration: none;
+		background-color: #CC0000;
+		color: #FFF;
+		}
+a:visited:hover {
+	color:  #888;
 }
 
 .enlace {

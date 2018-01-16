@@ -22,7 +22,7 @@
 		<tr id="escrito">
 			<td colspan="" rowspan="" headers="" id="mediano">Nombre</td>
 			<td colspan="" rowspan="" headers="">Apellido</td>
-			<td colspan="" rowspan="" headers="" id="largo">Password</td>
+			<td colspan="" rowspan="" headers="" id="largo">Contraseña</td>
 
 		</tr>
 		<tr id="enviado">
@@ -43,8 +43,8 @@
 
 		</tr>
 		<tr id="escrito">
-			<td colspan="" rowspan="" headers="" id="mediano">Aficiones</td>
-			<td colspan="" rowspan="" headers="">Utilidad</td>
+			<td colspan="" rowspan="" headers="" id="mediano">Página Visitada</td>
+			<td colspan="" rowspan="" headers="">Nivel Satisfactorio</td>
 			<td colspan="" rowspan="" headers="" id="largo">Comentario</td>
 
 		</tr>

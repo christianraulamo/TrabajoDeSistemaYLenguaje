@@ -7,6 +7,49 @@
 	<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+
+	<a href="index.html" class="enlace" id="inicio">Volver</a>
+	<form action="formulario.php" method="get" accept-charset="utf-8">
+
+	<div class="texto">
+		<fieldset>
+			<legend>Formulario de contacto</legend>
+			<fieldset>
+				
+				<legend>Datos personales</legend>
+				<label for="nombre">Nombre: </label>
+				<input type="text" name="nombre" value="" placeholder="" id="nombre">
+				<label for="apellido">Apellidos: </label>
+				<input type="text" name="apellido" value="" placeholder="" id="apellido"> <br>
+				<label for="contra">Contraseña: </label>
+				<input type="password" name="contra" value="" placeholder="" id="contra">
+			</fieldset>
+			<fieldset>
+				<legend>Encuesta</legend> <br>
+				<div>¿Qué página has visitado?</div>
+				 <select name="aficiones" multiple="multiple">
+				<option value="tajetared">Tarjeta red inalambrica</option>
+				<option value="raton">Ratón</option>
+				<option value="teclado">Teclado</option>
+				<option value="memoriaram">Memoria RAM</option>
+				<option value="targetadesonido">Targeta de sonido</option>
+			</select> <br> <br>
+
+			<div>¿Te gusta la página?</div> <br>
+			<input type="radio" name="gusto" id="gusto"> Nada <br> <br>
+			<input type="radio" name="gusto" id="gusto"> Poco <br> <br>
+			<input type="radio" name="gusto" id="gusto"> Mucho <br> <br>
+			
+			<div>Opinión</div> <br>
+			<textarea name="comentarios"  rows="5" cols="60" ></textarea> <br>
+			
+
+			</fieldset>
+			<input type="submit" name="" value="Enviar" id="enviar">
+		</fieldset>
+	</div>
+		
+	</form>
 	
 </body>
 </html>

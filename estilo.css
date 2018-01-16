@@ -3,9 +3,15 @@ body{
 	background-image:none repeat;
 }
 
+
+
 @font-face {
 	font-family: Fuente;
 	src: url(Fuente.ttf);
+}
+@font-face {
+	font-family: Fuentetitulo;
+	src: url(fuentetitulo.ttf);
 }
 
 h1 {
@@ -33,12 +39,14 @@ h3 {
 	text-align: center;
 	color: red;
 	font-size: 2em;
+	font-family: Fuentetitulo;
 }
 
 
 .tituloprincipal {
 	color: red;
 	font-size: 2em;
+	font-family: Fuentetitulo;
 }
 
 .p {
@@ -74,13 +82,12 @@ h3 {
 
 fieldset {
 	text-align: center;
-	color: white;
-	font-family: Fuente;
+	border: 2px solid white;
 	margin-top: 0,5%;
 	margin-left: 0,5%;
 	margin-right: 0,5%;
 	margin-bottom: 0,5%; 
-	position: absolute;
+	position: relative;
 }
 
 .enlaceweb {
@@ -116,4 +123,60 @@ a:visited:hover {
 	font-size: 18px;
 	color: white;
 	text-align: justify;
+	font-size: 1.5em;
+	font-family: Fuente;
+}
+
+.textointro {
+	font-size: 0.8em;
+	text-align: justify;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: Fuente;
+}
+
+#enviar {
+	background-color: rgb(29, 28, 12);
+	width: 80%;
+	margin: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: Fuentetitulo;
+	font-size: 25px;
+	letter-spacing: 10px;
+	color: white;
+}
+
+table, td, tr {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	border: ridge white 3px; 
+	border-collapse: collapse;
+}
+
+label {
+	margin-left: 5px;
+}
+
+#contra {
+	margin-top: 15px;
+}
+
+#enviado {
+	color: green;
+}
+
+#largo {
+	width: 45%;
+}
+
+#mediano {
+	width: 30%;
+}
+
+td {
+	padding: 10px;
+	width: 30%;
 }

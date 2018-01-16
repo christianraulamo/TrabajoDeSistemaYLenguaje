@@ -3,7 +3,10 @@ body{
 	background-image:none repeat;
 }
 
-
+#in {
+	background-image: url("fondo1.jpg");
+	background-image:none repeat;
+}
 
 @font-face {
 	font-family: Fuente;

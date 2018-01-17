@@ -3,9 +3,58 @@ body{
 	background-image:none repeat;
 }
 
-#in {
+#uno {
 	background-image: url("fondo1.jpg");
 	background-image:none repeat;
+}
+
+#dos {
+	background-image: url("fondo2.jpg");
+	background-image:none repeat;
+}
+
+#tres {
+	background-image: url("fondo3.jpg");
+	background-image:none repeat;
+}
+
+#cuatro {
+	background-image: url("fondo4.jpg");
+	background-image:none repeat;
+}
+
+#cinco {
+	background-image: url("fondo5.jpg");
+	background-image:none repeat;
+}
+
+#seis {
+	background-image: url("fondo6.jpg");
+	background-image:none repeat;
+}
+
+#siete {
+	background-image: url("fondo7.jpg");
+	background-image:none repeat;
+}
+
+#ocho {
+	background-image: url("fondo8.jpg");
+	background-image:none repeat;
+}
+
+#nueve {
+	background-image: url("fondo9.jpg");
+	background-image:none repeat;
+}
+
+#diez {
+	background-image: url("fondo10.jpg");
+	background-image:none repeat;
+}
+
+#en {
+	color: black;
 }
 
 @font-face {
@@ -182,4 +231,10 @@ label {
 td {
 	padding: 10px;
 	width: 30%;
+}
+
+#escrito {
+	color: white;
+	font-size: 1em;
+	padding: 7px;
 }

@@ -6,7 +6,7 @@
 	<title></title>
 	<link rel="stylesheet" href="estilo.css">
 </head>
-<body>
+<body id="diez">
 	<div class="texto">
 	<div class="intro">
 		Tabla de formulario
@@ -15,16 +15,14 @@
 	<table>
 		<tr>
 			<td colspan="3" rowspan="" headers="" id="titulo">DATOS PERSONALES</td>
-
-
 		</tr>
 
 		<tr id="escrito">
 			<td colspan="" rowspan="" headers="" id="mediano">Nombre</td>
 			<td colspan="" rowspan="" headers="">Apellido</td>
 			<td colspan="" rowspan="" headers="" id="largo">Contraseña</td>
-
 		</tr>
+
 		<tr id="enviado">
 			<td colspan="" rowspan="" headers="" id="mediano"><?php
 				echo $_GET['nombre'];
@@ -39,23 +37,30 @@
 		</tr>
 		<tr id="titulo">
 			<td colspan="3" rowspan="" headers="">ENCUESTA</td>
-
-
 		</tr>
-		<tr id="escrito">
-			<td colspan="" rowspan="" headers="" id="mediano">Página Visitada</td>
-			<td colspan="" rowspan="" headers="">Nivel Satisfactorio</td>
-			<td colspan="" rowspan="" headers="" id="largo">Comentario</td>
 
+		<tr id="escrito">
+			<td colspan="3" rowspan="" headers="" id="mediano">Página Visitada</td>
 		</tr>
 		<tr id="enviado">
-			<td colspan="" rowspan="" headers="" id="mediano"><?php
+		<td colspan="3" rowspan="" headers="" id="mediano"><?php
 				echo $_GET['aficiones'];
 				?></td>
-			<td colspan="" rowspan="" headers=""><?php
+			</tr>
+
+			<tr id="escrito">
+			<td colspan="3" rowspan="" headers="">Nivel Satisfactorio</td>
+		</tr>
+			<tr id="enviado">
+			<td colspan="3" rowspan="" headers=""><?php
 				echo $_GET['gusto'];
 				?></td>
-			<td colspan="" rowspan="" headers="" id="largo"><?php
+			</tr>
+
+			<tr id="escrito">
+			<td colspan="3" rowspan="" headers="" id="largo2">Comentario</td>
+		</tr>
+			<td colspan="3" rowspan="" headers="" id="largo"><?php
 				echo $_GET['comentarios'];
 				?></td>
 

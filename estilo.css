@@ -148,8 +148,7 @@ fieldset {
 
 a:hover {
 		text-decoration: none;
-		background-color: #CC0000;
-		color: #FFF;
+		background-color: red;
 		}
 a:visited:hover {
 	color:  #888;

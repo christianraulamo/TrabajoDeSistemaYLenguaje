@@ -1,56 +1,45 @@
 body{
-	background-image: url("fondo.jpg");
-	background-image:none repeat;
+	background-image: url("imagenes/fondo.jpg");
 }
 
 #uno {
-	background-image: url("fondo1.jpg");
-	background-image:none repeat;
+	background-image: url("imagenes/fondo1.jpg");
 }
 
 #dos {
-	background-image: url("fondo2.jpg");
-	background-image:none repeat;
+	background-image: url("imagenes/fondo2.jpg");
 }
 
 #tres {
-	background-image: url("fondo3.jpg");
-	background-image:none repeat;
+	background-image: url("imagenes/fondo3.jpg");
 }
 
 #cuatro {
-	background-image: url("fondo4.jpg");
-	background-image:none repeat;
+	background-image: url("imagenes/fondo4.jpg");
 }
 
 #cinco {
-	background-image: url("fondo5.jpg");
-	background-image:none repeat;
+	background-image: url("imagenes/fondo5.jpg");
 }
 
 #seis {
-	background-image: url("fondo6.jpg");
-	background-image:none repeat;
+	background-image: url("imagenes/fondo6.jpg");
 }
 
 #siete {
-	background-image: url("fondo7.jpg");
-	background-image:none repeat;
+	background-image: url("imagenes/fondo7.jpg");
 }
 
 #ocho {
-	background-image: url("fondo8.jpg");
-	background-image:none repeat;
+	background-image: url("imagenes/fondo8.jpg");
 }
 
 #nueve {
-	background-image: url("fondo9.jpg");
-	background-image:none repeat;
+	background-image: url("imagenes/fondo9.jpg");
 }
 
 #diez {
-	background-image: url("fondo10.jpg");
-	background-image:none repeat;
+	background-image: url("imagenes/fondo10.jpg");
 }
 
 #en {
@@ -59,11 +48,11 @@ body{
 
 @font-face {
 	font-family: Fuente;
-	src: url(Fuente.ttf);
+	src: url(fuentes/Fuente.ttf);
 }
 @font-face {
 	font-family: Fuentetitulo;
-	src: url(fuentetitulo.ttf);
+	src: url(fuentes/fuentetitulo.ttf);
 }
 
 h1 {

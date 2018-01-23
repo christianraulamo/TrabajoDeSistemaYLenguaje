@@ -140,7 +140,7 @@ a:hover {
 		background-color: red;
 		}
 a:visited:hover {
-	color:  #888;
+	color:  black;
 }
 
 .enlace {
@@ -225,4 +225,30 @@ td {
 	color: white;
 	font-size: 1em;
 	padding: 7px;
+}
+
+ #primera {
+    background-image: url("imagenes/foto1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 250px;
+    top: 100px;
+    left: 50px;
+    float: left;
+        	
+    }
+
+ #segunda {
+ 	margin-left: 10%;
+    background-image: url("imagenes/foto2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 250px;
+    top: 100px;
+    left: 50px;
+    float: left;
+        	
+    }
 }

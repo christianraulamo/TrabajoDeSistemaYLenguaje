@@ -32,6 +32,7 @@ body{
 
 #ocho {
 	background-image: url("imagenes/fondo8.jpg");
+	background-size: cover;
 }
 
 #nueve {
@@ -227,105 +228,6 @@ td {
 	padding: 7px;
 }
 
- 	#primera {
-	    background-image: url("imagenes/foto1.jpg");
-	    background-size: cover;
-	    background-repeat: no-repeat;
-	    width: 420px;
-	    height: 250px;
-	    top: 100px;
-	    left: 50px;	
-	    background-position: 50% 50%;
-    }
-
- 	#segunda {
-	    background-image: url("imagenes/foto2.jpg");
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    width: 420px;
-	    height: 250px;
-	    top: 100px;
-	    left: 50px;		
-	    background-position: 50% 50%;
-    }
-
-    #tercera {
-    	background-image: url("imagenes/foto3.jpg");
-    	background-size: contain;
-    	background-repeat: no-repeat;
-    	width: 420px;
-	    height: 250px;
-	    top: 100px;
-	    left: 50px;	
-	    background-position: 50% 50%;
-    }
-
-    #cuarta {
-    	background-image: url("imagenes/foto4.jpg");
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    width: 420px;
-	    height: 250px;
-	    top: 100px;
-	    left: 50px;	
-	    background-position: 50% 50%;
-    }
-
-    #quinta {
-	    background-image: url("imagenes/foto5.jpg");
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    width: 420px;
-	    height: 250px;
-	    top: 100px;
-	    left: 50px;	
-	    background-position: 50% 50%;
-    }
-
-    #sexta {
-	    background-image: url("imagenes/foto6.jpg");
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    width: 420px;
-	    height: 250px;
-	    top: 100px;
-	    left: 50px;	
-	    background-position: 50% 50%;
-    }
-
-    #septima {
-	    background-image: url("imagenes/foto7.jpg");
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    width: 420px;
-	    height: 250px;
-	    top: 100px;
-	    left: 50px;	
-	    background-position: 50% 50%;
-    }
-
-    #octava {
-	    background-image: url("imagenes/foto8.jpg");
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    width: 420px;
-	    height: 250px;
-	    top: 100px;
-	    left: 50px;	
-	    background-position: 50% 50%;
-    }
-
-    #novena {
-	    background-image: url("imagenes/foto9.jpg");
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    width: 420px;
-	    height: 250px;
-	    top: 100px;
-	    left: 50px;	
-	    background-position: 50% 50%;
-    }
-
     #marco {
     	width: 420px;
 	    height: 250px;
@@ -333,6 +235,7 @@ td {
 	    left: 50px;
 	    float: left;
 	    margin-top: 20px;
+	    margin-bottom: 10px;
 	    background-position: center;
     }
 }

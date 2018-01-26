@@ -15,7 +15,7 @@
 
 	<table>
 		<tr>
-			<td colspan="3" rowspan="" headers="" id="titulo">DATOS PERSONALES</td>
+			<td colspan="3" rowspan="" headers="" class="gris" id="titulo">DATOS PERSONALES</td>
 		</tr>
 
 		<tr id="escrito">
@@ -25,13 +25,13 @@
 		</tr>
 
 		<tr id="enviado">
-			<td colspan="" rowspan="" headers="" id="mediano"><?php
+			<td colspan="" rowspan="" headers="" class="gris" id="mediano"><?php
 				echo $_GET['nombre'];
 				?></td>
-			<td colspan="" rowspan="" headers=""><?php
+			<td colspan="" rowspan="" headers="" class="gris"><?php
 				echo $_GET['apellido'];
 				?></td>
-			<td colspan="" rowspan="" headers="" id="largo"><?php
+			<td colspan="" rowspan="" headers="" class="gris" id="largo"><?php
 				echo $_GET['contra'];
 				?></td>
 
@@ -41,7 +41,7 @@
 		</tr>
 
 		<tr id="escrito">
-			<td colspan="3" rowspan="" headers="" id="mediano">Página Visitada</td>
+			<td colspan="3" rowspan="" headers="" class="gris" id="mediano">Página Visitada</td>
 		</tr>
 		<tr id="enviado">
 		<td colspan="3" rowspan="" headers="" id="mediano"><?php
@@ -50,7 +50,7 @@
 			</tr>
 
 			<tr id="escrito">
-			<td colspan="3" rowspan="" headers="">Nivel Satisfactorio</td>
+			<td colspan="3" rowspan="" headers="" class="gris">Nivel Satisfactorio</td>
 		</tr>
 			<tr id="enviado">
 			<td colspan="3" rowspan="" headers=""><?php
@@ -59,7 +59,7 @@
 			</tr>
 
 			<tr id="escrito">
-			<td colspan="3" rowspan="" headers="" id="largo2">Comentario</td>
+			<td colspan="3" rowspan="" headers="" class="gris" id="largo2">Comentario</td>
 		</tr>
 			<td colspan="3" rowspan="" headers="" id="largo"><?php
 				echo $_GET['comentarios'];

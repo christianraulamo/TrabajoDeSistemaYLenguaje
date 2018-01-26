@@ -41,6 +41,7 @@ body{
 
 #diez {
 	background-image: url("imagenes/fondo10.jpg");
+	background-size: cover;
 }
 
 #en {
@@ -259,4 +260,8 @@ td {
     	border: 2px solid white;
     	visibility: hidden;
         }
+
+    .gris {
+	background:#999
+	}
 }

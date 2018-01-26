@@ -87,7 +87,7 @@ h3 {
 
 
 .tituloprincipal {
-	color: red;
+	color: #E94858;
 	font-size: 2em;
 	font-family: Fuentetitulo;
 }
@@ -139,20 +139,20 @@ fieldset {
 
 a:hover {
 		text-decoration: none;
-		background-color: red;
+		background-color: white;
 		}
 a:visited:hover {
 	color:  black;
 }
 
 .enlace {
-	color: yellow;
+	color: white;
 	text-decoration: none;
 	margin: 100px;
 	font-size: 20px;
 }
 .enlace1 {
-	color: yellow;
+	color: white;
 	text-decoration: none;
 	font-size: 20px;
 }

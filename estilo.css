@@ -138,12 +138,8 @@ fieldset {
 	color: gray;
 }
 
-a:hover {
-		text-decoration: none;
-		background-color: white;
-		}
 a:visited:hover {
-	color:  black;
+	color:   #888;
 }
 
 .enlace {
@@ -264,4 +260,9 @@ td {
     .gris {
 	background:#999
 	}
+
+	hover {
+		text-decoration: none;
+		background-color: black;
+		}
 }

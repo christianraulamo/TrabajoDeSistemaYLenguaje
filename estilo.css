@@ -16,10 +16,12 @@ body{
 
 #cuatro {
 	background-image: url("imagenes/fondo4.jpg");
+	background-size: cover;
 }
 
 #cinco {
 	background-image: url("imagenes/fondo5.jpg");
+	background-size: cover;
 }
 
 #seis {

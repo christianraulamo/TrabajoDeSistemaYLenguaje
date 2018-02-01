@@ -86,9 +86,37 @@ h3 {
 	font-family: Fuentetitulo;
 }
 
+.titulo1 {
+	text-align: center;
+	color: #DED700;
+	font-size: 2em;
+	font-family: Fuentetitulo;
+}
+
+.titulo2 {
+	text-align: center;
+	color: #DE3163;
+	font-size: 2em;
+	font-family: Fuentetitulo;
+}
+
+.titulo3 {
+	text-align: center;
+	color: #87CEEB;
+	font-size: 2em;
+	font-family: Fuentetitulo;
+}
+
+.titulo4 {
+	text-align: center;
+	color: #000080;
+	font-size: 2em;
+	font-family: Fuentetitulo;
+}
+
 
 .tituloprincipal {
-	color: #E94858;
+	color: #FFDF00;
 	font-size: 2em;
 	font-family: Fuentetitulo;
 }

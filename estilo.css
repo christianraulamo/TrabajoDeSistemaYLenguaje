@@ -61,20 +61,20 @@ h1 {
 	border: 2px solid white;
 	float: left;
 	width: 45%;
-	margin-top: 40px;
+	margin-top: 5%;
 }
 
 .video {
 	border: 2px solid white;
 	float: left;
-	margin-left: 100px;
-	margin-top: 130px;
+	margin-left: 5%;
+	margin-top: 10%;
 }
 h3 {
 	border: 2px solid white;
 	padding: 1em;
 	float: left;
-	width: 1274px;
+	width: 95%;
 	margin-left: -5px;
 	margin-right: -5px;
 }
@@ -267,13 +267,13 @@ td {
     #capaenlace {
     	float: left;
     	text-align: center;
-    	margin-right: 50px;
+    	margin-right: 5%;
     }
 
     #contenedorenlace {
     	text-align: center;
     	float: left;
-    	width: 1020px;
+    	width: 89%;
 	    margin-left: 10%;
 	    margin-right: 10%;
     }

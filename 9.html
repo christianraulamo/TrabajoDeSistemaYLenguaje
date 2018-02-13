@@ -1,57 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tarjeta De Red Inalambrica</title>
-	<link rel="stylesheet" href="estilo.css">
-	<link rel="shortcut icon" href="imagenes/favicon.png" >
-</head>
-<body id="nueve">
-
-	<a href="index.html" class="enlace" id="inicio">Volver</a>
-	<form action="formulario.php" method="get" accept-charset="utf-8">
-
-	<div class="texto">
-		<fieldset>
-			<legend>Formulario de contacto</legend>
-			<fieldset>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Tarjeta De Red Inalambrica</title>
+		<link rel="stylesheet" href="estilo.css">
+		<link rel="shortcut icon" href="imagenes/favicon.png" >
+	</head>
+	<body id="nueve">
+		<a href="index.html" class="enlace" id="inicio">Volver</a>
+		<form action="formulario.php" method="get" accept-charset="utf-8">
+			<div class="texto">
+				<fieldset>
+					<legend>Formulario de contacto</legend>
+					<fieldset>
+						
+						<legend>Datos personales</legend>
+						<label for="nombre">Nombre: </label>
+						<input type="text" name="nombre" value="" placeholder="" id="nombre">
+						<label for="apellido">Apellidos: </label>
+						<input type="text" name="apellido" value="" placeholder="" id="apellido"> <br>
+						<label for="contra">Contraseña: </label>
+						<input type="password" name="contra" value="" placeholder="" id="contra">
+					</fieldset>
+					<fieldset>
+						<legend>Encuesta</legend> <br>
+						<div>¿Qué página has visitado?</div>
+						<select name="aficiones" multiple="multiple">
+							<option value="tajeta red inalambrica">Tarjeta Red Inalambrica</option>
+							<option value="raton">Ratón</option>
+							<option value="teclado">Teclado</option>
+							<option value="memoriaram">Memoria RAM</option>
+							<option value="targeta de sonido">Tarjeta de Sonido</option>
+						</select> <br> <br>
+						<div>¿Te gusta la página?</div> <br>
+						<input type="radio" name="gusto" id="gusto"> Nada <br> <br>
+						<input type="radio" name="gusto" id="gusto"> Poco <br> <br>
+						<input type="radio" name="gusto" id="gusto"> Mucho <br> <br>
+						
+						<div>Opinión</div> <br>
+						<textarea name="comentarios"  rows="5" cols="60" ></textarea> <br>
+						
+					</fieldset>
+					<input type="submit" name="" value="Enviar" id="enviar">
+				</fieldset>
 				
-				<legend>Datos personales</legend>
-				<label for="nombre">Nombre: </label>
-				<input type="text" name="nombre" value="" placeholder="" id="nombre">
-				<label for="apellido">Apellidos: </label>
-				<input type="text" name="apellido" value="" placeholder="" id="apellido"> <br>
-				<label for="contra">Contraseña: </label>
-				<input type="password" name="contra" value="" placeholder="" id="contra">
-			</fieldset>
-			<fieldset>
-				<legend>Encuesta</legend> <br>
-				<div>¿Qué página has visitado?</div>
-				 <select name="aficiones" multiple="multiple">
-				<option value="tajeta red inalambrica">Tarjeta Red Inalambrica</option>
-				<option value="raton">Ratón</option>
-				<option value="teclado">Teclado</option>
-				<option value="memoriaram">Memoria RAM</option>
-				<option value="targeta de sonido">Tarjeta de Sonido</option>
-			</select> <br> <br>
-
-			<div>¿Te gusta la página?</div> <br>
-			<input type="radio" name="gusto" id="gusto"> Nada <br> <br>
-			<input type="radio" name="gusto" id="gusto"> Poco <br> <br>
-			<input type="radio" name="gusto" id="gusto"> Mucho <br> <br>
+			</div>
 			
-			<div>Opinión</div> <br>
-			<textarea name="comentarios"  rows="5" cols="60" ></textarea> <br>
-			
-
-			</fieldset>
-			<input type="submit" name="" value="Enviar" id="enviar">
-		</fieldset>
+		</form>
 		
-	</div>
-		
-	</form>
-	
-</body>
+	</body>
 </html>

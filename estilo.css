@@ -224,6 +224,13 @@ table, td, tr {
 	border-collapse: collapse;
 }
 
+td:hover{
+	background-color: #FFDF00;
+	padding: 20px;
+	width: 40%;
+}
+}
+
 label {
 	margin-left: 5px;
 }

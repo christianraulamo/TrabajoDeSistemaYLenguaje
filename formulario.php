@@ -19,13 +19,13 @@
 		</tr>
 
 		<tr id="escrito">
-			<td colspan="" rowspan="" headers="" id="mediano">Nombre</td>
+			<td colspan="" rowspan="" headers="" >Nombre</td>
 			<td colspan="" rowspan="" headers="">Apellido</td>
 			<td colspan="" rowspan="" headers="" id="largo">Contraseña</td>
 		</tr>
 
 		<tr id="enviado">
-			<td colspan="" rowspan="" headers="" class="gris" id="mediano"><?php
+			<td colspan="" rowspan="" headers="" class="gris"><?php
 				echo $_GET['nombre'];
 				?></td>
 			<td colspan="" rowspan="" headers="" class="gris"><?php
@@ -41,7 +41,7 @@
 		</tr>
 
 		<tr id="escrito">
-			<td colspan="3" rowspan="" headers="" class="gris" id="mediano">Página Visitada</td>
+			<td colspan="3" rowspan="" headers="" class="gris" >Página Visitada</td>
 		</tr>
 		<tr id="enviado">
 		<td colspan="3" rowspan="" headers="" id="mediano"><?php

@@ -64,6 +64,7 @@ h1 {
     float: left;
     width: 45%;
     margin-top: 5%;
+    text-align: center;
 }
 
 .video {
@@ -79,6 +80,7 @@ h3 {
     width: 95%;
     margin-left: -5px;
     margin-right: -5px;
+    text-align: center;
 }
 
 .titulo {
@@ -121,6 +123,7 @@ h3 {
     color: #FFDF00;
     font-size: 2em;
     font-family: Fuentetitulo;
+    text-align: center;
 }
 
 .p {
@@ -133,6 +136,7 @@ h3 {
     font-size: 18px;
     color: white;
     text-align: justify;
+    text-align: center;
 }
 .inicio {
     font-size: 30px;
@@ -142,6 +146,7 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     border-bottom-color: white;
+    text-align: center;
 }
 
 .intro {
@@ -152,6 +157,7 @@ h3 {
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 fieldset {
@@ -193,6 +199,7 @@ a:visited:hover {
     text-align: justify;
     font-size: 1.5em;
     font-family: Fuente;
+    text-align: center;
 }
 
 .textointro {
@@ -202,6 +209,7 @@ a:visited:hover {
     margin-left: 10px;
     margin-right: 10px;
     font-family: Fuente;
+    text-align: center;
 }
 
 #enviar {
@@ -226,8 +234,7 @@ table, td, tr {
 
 td:hover{
     background-color: #FFDF00;
-    padding: 20px;
-    width: 40%;
+    font-size: 1.5em;
 }
 }
 

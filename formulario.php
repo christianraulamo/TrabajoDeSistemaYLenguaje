@@ -54,7 +54,7 @@
 				<tr id="escrito">
 					<td colspan="3" rowspan="" headers="" class="gris" id="largo2">Comentario</td>
 				</tr>
-				<td colspan="3" rowspan="" headers="" id="largo"><?php
+				<td colspan="3" rowspan="" headers="" ><?php
 						echo $_GET['comentarios'];
 				?></td>
 			</tr>

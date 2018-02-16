@@ -23,13 +23,13 @@
 				</tr>
 				<tr id="enviado">
 					<td colspan="" rowspan="" headers="" class="gris"><?php
-							echo $_GET['nombre'];
+									echo $_GET['nombre'];
 					?></td>
 					<td colspan="" rowspan="" headers="" class="gris"><?php
-							echo $_GET['apellido'];
+									echo $_GET['apellido'];
 					?></td>
 					<td colspan="" rowspan="" headers="" class="gris" id="largo"><?php
-							echo $_GET['contra'];
+									echo $_GET['contra'];
 					?></td>
 				</tr>
 				<tr id="titulo">
@@ -40,7 +40,7 @@
 				</tr>
 				<tr id="enviado">
 					<td colspan="3" rowspan="" headers="" id="mediano"><?php
-							echo $_GET['aficiones'];
+									echo $_GET['aficiones'];
 					?></td>
 				</tr>
 				<tr id="escrito">
@@ -48,17 +48,18 @@
 				</tr>
 				<tr id="enviado">
 					<td colspan="3" rowspan="" headers=""><?php
-							echo $_GET['gusto'];
+									echo $_GET['gusto'];
 					?></td>
 				</tr>
 				<tr id="escrito">
 					<td colspan="3" rowspan="" headers="" class="gris" id="largo2">Comentario</td>
 				</tr>
-				<td colspan="3" rowspan="" headers="" ><?php
-						echo $_GET['comentarios'];
-				?></td>
-			</tr>
-		</table>
-	</div>
-</body>
+				<tr id="enviado">
+					<td colspan="3" rowspan="" headers="" ><?php
+									echo $_GET['comentarios'];
+					?></td>
+				</tr>
+			</table>
+		</div>
+	</body>
 </html>
